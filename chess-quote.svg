@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 80" width="860" height="80">
+  <style>
+    .card-bg {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 1;
+      rx: 6px;
+    }
+    text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    }
+    .chess-piece {
+      font-size: 26px;
+      fill: #58a6ff;
+    }
+    .quote-text {
+      font-size: 13px;
+      font-weight: 600;
+      fill: #f0f6fc;
+      opacity: 0;
+      animation: fadeIn 0.8s ease forwards 0.4s;
+    }
+    .author-text {
+      font-size: 11px;
+      fill: #7d8590;
+      opacity: 0;
+      animation: fadeIn 0.8s ease forwards 0.8s;
+    }
+    .accent-bar {
+      fill: #58a6ff;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+
+  <!-- Tlo ramki -->
+  <rect width="100%" height="100%" class="card-bg" />
+
+  <!-- Pasek akcentowy z lewej strony -->
+  <path d="M 0 6 Q 0 0 6 0 L 6 0 L 6 80 L 6 80 Q 0 80 0 74 Z" class="accent-bar" />
+
+  <!-- Ikona skoczka szachowego -->
+  <text x="30" y="50" class="chess-piece">♞</text>
+
+  <!-- Cytat i autor -->
+  <g transform="translate(70, 0)">
+    <text x="0" y="36" class="quote-text">&quot;When you see a good move, look for a better one.&quot;</text>
+    <text x="0" y="58" class="author-text">— Emanuel Lasker (2nd World Chess Champion)</text>
+  </g>
+</svg>
