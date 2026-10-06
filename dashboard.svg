@@ -4,8 +4,8 @@
     text {
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
     }
-    .ascii-text {
-      font-size: 9.5px;
+    .ascii-text text {
+      font-size: 8.8px;
       fill: #8b949e;
       white-space: pre;
     }
@@ -20,7 +20,7 @@
 
   <rect width="100%" height="100%" class="bg" />
 
-  <!-- Przyciski okna -->
+  <!-- Górna belka okna -->
   <circle cx="25" cy="22" r="5.5" fill="#ff5f56" />
   <circle cx="43" cy="22" r="5.5" fill="#ffbd2e" />
   <circle cx="61" cy="22" r="5.5" fill="#27c93f" />
@@ -29,103 +29,103 @@
 
   <!-- Lewa sekcja: Portret ASCII -->
   <g class="ascii-text">
-    <text class="type-in" x="32" y="75" style="animation-delay: 0.0s;">                   .`+c####s*c*cc*-::---+c++*+::.</text>
-    <text class="type-in" x="32" y="86.2" style="animation-delay: 0.02s;">                  =c#%%%#sssc*c+c-`.` .-`::-:-=*c+`</text>
-    <text class="type-in" x="32" y="97.4" style="animation-delay: 0.04s;">                -s%%%%%%##ss###ss==+==:c=-*::-----=--`</text>
-    <text class="type-in" x="32" y="108.60000000000001" style="animation-delay: 0.06s;">              :s%%####%%%%%%%%%%%scs%#s%sss##scs*=-****:</text>
-    <text class="type-in" x="32" y="119.80000000000001" style="animation-delay: 0.08s;">             :#%%####%%%%%#scccccc***+---==++*s####s**cc:</text>
-    <text class="type-in" x="32" y="131.0" style="animation-delay: 0.1s;">            `*####%%%#sccc*+****+-:``````.`...`-*cs***=**</text>
-    <text class="type-in" x="32" y="142.2" style="animation-delay: 0.12s;">            -s###%%#sc***ccccc*=-:-::-==::``.   .=cssc-*s:</text>
-    <text class="type-in" x="32" y="153.39999999999998" style="animation-delay: 0.14s;">            =s##%%#s*+*ccccc*******++++===-`     .:*s*-+ss=.</text>
-    <text class="type-in" x="32" y="164.59999999999997" style="animation-delay: 0.16s;">            +ss#%%#*+*ccccccccssc*+=+**+==-:.      :*c-=csc`</text>
-    <text class="type-in" x="32" y="175.79999999999995" style="animation-delay: 0.18s;">          .:*#%%%%c+*cccccssscccc*=+*+==-::`.......:+c=+ccc:</text>
-    <text class="type-in" x="32" y="186.99999999999994" style="animation-delay: 0.2s;">          `*#%%%%#c**ccccssc*+=-----==---:`.   . .`-=s*+*cs*</text>
-    <text class="type-in" x="32" y="198.19999999999993" style="animation-delay: 0.22s;">          :c###%%sc*ccssssc*+=---=**+*+===-``......:=*s++cs=</text>
-    <text class="type-in" x="32" y="209.39999999999992" style="animation-delay: 0.24s;">          .c###%%#ccsss##ssssccc**cccc****+=-::::::`-+s*==++.</text>
-    <text class="type-in" x="32" y="220.5999999999999" style="animation-delay: 0.26s;">           =s#s%##%%%%%%%%%%%%%%#ss###%%%####sssss####c**-:+.</text>
-    <text class="type-in" x="32" y="231.7999999999999" style="animation-delay: 0.28s;">           =s#*%##%%%#%%%@%%%%%%%%%%%%%%%%%%%##sc*+###+`*c==`</text>
-    <text class="type-in" x="32" y="242.9999999999999" style="animation-delay: 0.3s;">           :s#s%@%%%%##%%%%@%%%%%%##%%%%%%%%%%%#sc*s%#*:cc=-</text>
-    <text class="type-in" x="32" y="254.19999999999987" style="animation-delay: 0.32s;">           `s##%%%%@%%%%%##%%%%%%#cc#%%%%%%%#ss###%#%s%css+-`</text>
-    <text class="type-in" x="32" y="265.39999999999986" style="animation-delay: 0.34s;">           `cs%#s%%#@@@%%%#s##%%#c+:=%%%%%#####sssc#s-+c#sc:.</text>
-    <text class="type-in" x="32" y="276.59999999999985" style="animation-delay: 0.36s;">-::.        :c%#=#%cs#%%%%%##%%#ss+`.c%#s%%##ssc*+*#:.-=c**.</text>
-    <text class="type-in" x="32" y="287.79999999999984" style="animation-delay: 0.38s;">ssssc=:-==-=*s%s-+s%######%%%#ssss+:.:c#s#%#cccsssc::-+c-+*:</text>
-    <text class="type-in" x="32" y="298.99999999999983" style="animation-delay: 0.4s;">sccs##*++**+c#%#+*ccs#####sscss#s*=:..`+c*+====:`. `=-+#=-s-</text>
-    <text class="type-in" x="32" y="310.1999999999998" style="animation-delay: 0.42s;">ssssccc+==**cc#%ss#sccscccc*cccccc*-..` =#c*-.....:==--+c-#-</text>
-    <text class="type-in" x="32" y="321.3999999999998" style="animation-delay: 0.44s;">=---+ccssccccccs####sscc***cs*csc*c==c*+s#ssc*=---==-`-::c+</text>
-    <text class="type-in" x="32" y="332.5999999999998" style="animation-delay: 0.46s;">+**+=-::-+****cccss##sssc*css###sccc+-:-:+###sc+-++::-=--c.</text>
-    <text class="type-in" x="32" y="343.7999999999998" style="animation-delay: 0.48s;">---=+***=-:``*#scccss##scssscccccs##*``. .*ss#+++=+::=*-c`</text>
-    <text class="type-in" x="32" y="354.9999999999998" style="animation-delay: 0.5s;">c**+=-`:##c+:=**cccccccs###sc****ssss+==-:=ssc*:=-*=:*%%:</text>
-    <text class="type-in" x="32" y="366.19999999999976" style="animation-delay: 0.52s;">cccsssc----:...`:-+**ccc**c#######sc*+==--+s#s==--+=:*sc`</text>
-    <text class="type-in" x="32" y="377.39999999999975" style="animation-delay: 0.54s;">****c##c=`````.....````:`..`-=*s##*=-::``..-**+=-==-++-*-</text>
-    <text class="type-in" x="32" y="388.59999999999974" style="animation-delay: 0.56s;">=*+++*s##*-:````........``......:*ssc*+-:..`=+=--=-:%*`+=</text>
-    <text class="type-in" x="32" y="399.7999999999997" style="animation-delay: 0.58s;">%#*+***c##c+:`::-:::--===++++++++-ccc*+++--==-::==.:%s+c-</text>
-    <text class="type-in" x="32" y="410.9999999999997" style="animation-delay: 0.6s;">#%#c****cs#s**cc#c++**c*cs+-*+-+c=c*+==**++=:.`=-..=%csc:</text>
-    <text class="type-in" x="32" y="422.1999999999997" style="animation-delay: 0.62s;">s*=-:+ccccsc*css#c**cc***s=:+*==**c*-` .:::::-+-.:--c%s:</text>
-    <text class="type-in" x="32" y="433.3999999999997" style="animation-delay: 0.64s;">`     =cccc++*sscs#sss***s=-+*+=c*ssc=:``:-=*+-`-+-+==:</text>
-    <text class="type-in" x="32" y="444.5999999999997" style="animation-delay: 0.66s;">       `*c*=*cssc*ccc****c+-*=-+*c##%s*++*c*+--===:c*</text>
-    <text class="type-in" x="32" y="455.79999999999967" style="animation-delay: 0.68s;">         =c+*csss++******c+=*+++*s###scccs*=::-===:+:</text>
+    <text class="type-in" x="25" y="75" xml:space="preserve" style="animation-delay: 0.0s;">                   .`+c####s*c*cc*-::---+c++*+::.</text>
+    <text class="type-in" x="25" y="86.2" xml:space="preserve" style="animation-delay: 0.02s;">                  =c#%%%#sssc*c+c-`.` .-`::-:-=*c+`</text>
+    <text class="type-in" x="25" y="97.4" xml:space="preserve" style="animation-delay: 0.04s;">                -s%%%%%%##ss###ss==+==:c=-*::-----=--`</text>
+    <text class="type-in" x="25" y="108.60000000000001" xml:space="preserve" style="animation-delay: 0.06s;">              :s%%####%%%%%%%%%%%scs%#s%sss##scs*=-****:</text>
+    <text class="type-in" x="25" y="119.80000000000001" xml:space="preserve" style="animation-delay: 0.08s;">             :#%%####%%%%%#scccccc***+---==++*s####s**cc:</text>
+    <text class="type-in" x="25" y="131.0" xml:space="preserve" style="animation-delay: 0.1s;">            `*####%%%#sccc*+****+-:``````.`...`-*cs***=**</text>
+    <text class="type-in" x="25" y="142.2" xml:space="preserve" style="animation-delay: 0.12s;">            -s###%%#sc***ccccc*=-:-::-==::``.   .=cssc-*s:</text>
+    <text class="type-in" x="25" y="153.39999999999998" xml:space="preserve" style="animation-delay: 0.14s;">            =s##%%#s*+*ccccc*******++++===-`     .:*s*-+ss=.</text>
+    <text class="type-in" x="25" y="164.59999999999997" xml:space="preserve" style="animation-delay: 0.16s;">            +ss#%%#*+*ccccccccssc*+=+**+==-:.      :*c-=csc`</text>
+    <text class="type-in" x="25" y="175.79999999999995" xml:space="preserve" style="animation-delay: 0.18s;">          .:*#%%%%c+*cccccssscccc*=+*+==-::`.......:+c=+ccc:</text>
+    <text class="type-in" x="25" y="186.99999999999994" xml:space="preserve" style="animation-delay: 0.2s;">          `*#%%%%#c**ccccssc*+=-----==---:`.   . .`-=s*+*cs*</text>
+    <text class="type-in" x="25" y="198.19999999999993" xml:space="preserve" style="animation-delay: 0.22s;">          :c###%%sc*ccssssc*+=---=**+*+===-``......:=*s++cs=</text>
+    <text class="type-in" x="25" y="209.39999999999992" xml:space="preserve" style="animation-delay: 0.24s;">          .c###%%#ccsss##ssssccc**cccc****+=-::::::`-+s*==++.</text>
+    <text class="type-in" x="25" y="220.5999999999999" xml:space="preserve" style="animation-delay: 0.26s;">           =s#s%##%%%%%%%%%%%%%%#ss###%%%####sssss####c**-:+.</text>
+    <text class="type-in" x="25" y="231.7999999999999" xml:space="preserve" style="animation-delay: 0.28s;">           =s#*%##%%%#%%%@%%%%%%%%%%%%%%%%%%%##sc*+###+`*c==`</text>
+    <text class="type-in" x="25" y="242.9999999999999" xml:space="preserve" style="animation-delay: 0.3s;">           :s#s%@%%%%##%%%%@%%%%%%##%%%%%%%%%%%#sc*s%#*:cc=-</text>
+    <text class="type-in" x="25" y="254.19999999999987" xml:space="preserve" style="animation-delay: 0.32s;">           `s##%%%%@%%%%%##%%%%%%#cc#%%%%%%%#ss###%#%s%css+-`</text>
+    <text class="type-in" x="25" y="265.39999999999986" xml:space="preserve" style="animation-delay: 0.34s;">           `cs%#s%%#@@@%%%#s##%%#c+:=%%%%%#####sssc#s-+c#sc:.</text>
+    <text class="type-in" x="25" y="276.59999999999985" xml:space="preserve" style="animation-delay: 0.36s;">-::.        :c%#=#%cs#%%%%%##%%#ss+`.c%#s%%##ssc*+*#:.-=c**.</text>
+    <text class="type-in" x="25" y="287.79999999999984" xml:space="preserve" style="animation-delay: 0.38s;">ssssc=:-==-=*s%s-+s%######%%%#ssss+:.:c#s#%#cccsssc::-+c-+*:</text>
+    <text class="type-in" x="25" y="298.99999999999983" xml:space="preserve" style="animation-delay: 0.4s;">sccs##*++**+c#%#+*ccs#####sscss#s*=:..`+c*+====:`. `=-+#=-s-</text>
+    <text class="type-in" x="25" y="310.1999999999998" xml:space="preserve" style="animation-delay: 0.42s;">ssssccc+==**cc#%ss#sccscccc*cccccc*-..` =#c*-.....:==--+c-#-</text>
+    <text class="type-in" x="25" y="321.3999999999998" xml:space="preserve" style="animation-delay: 0.44s;">=---+ccssccccccs####sscc***cs*csc*c==c*+s#ssc*=---==-`-::c+</text>
+    <text class="type-in" x="25" y="332.5999999999998" xml:space="preserve" style="animation-delay: 0.46s;">+**+=-::-+****cccss##sssc*css###sccc+-:-:+###sc+-++::-=--c.</text>
+    <text class="type-in" x="25" y="343.7999999999998" xml:space="preserve" style="animation-delay: 0.48s;">---=+***=-:``*#scccss##scssscccccs##*``. .*ss#+++=+::=*-c`</text>
+    <text class="type-in" x="25" y="354.9999999999998" xml:space="preserve" style="animation-delay: 0.5s;">c**+=-`:##c+:=**cccccccs###sc****ssss+==-:=ssc*:=-*=:*%%:</text>
+    <text class="type-in" x="25" y="366.19999999999976" xml:space="preserve" style="animation-delay: 0.52s;">cccsssc----:...`:-+**ccc**c#######sc*+==--+s#s==--+=:*sc`</text>
+    <text class="type-in" x="25" y="377.39999999999975" xml:space="preserve" style="animation-delay: 0.54s;">****c##c=`````.....````:`..`-=*s##*=-::``..-**+=-==-++-*-</text>
+    <text class="type-in" x="25" y="388.59999999999974" xml:space="preserve" style="animation-delay: 0.56s;">=*+++*s##*-:````........``......:*ssc*+-:..`=+=--=-:%*`+=</text>
+    <text class="type-in" x="25" y="399.7999999999997" xml:space="preserve" style="animation-delay: 0.58s;">%#*+***c##c+:`::-:::--===++++++++-ccc*+++--==-::==.:%s+c-</text>
+    <text class="type-in" x="25" y="410.9999999999997" xml:space="preserve" style="animation-delay: 0.6s;">#%#c****cs#s**cc#c++**c*cs+-*+-+c=c*+==**++=:.`=-..=%csc:</text>
+    <text class="type-in" x="25" y="422.1999999999997" xml:space="preserve" style="animation-delay: 0.62s;">s*=-:+ccccsc*css#c**cc***s=:+*==**c*-` .:::::-+-.:--c%s:</text>
+    <text class="type-in" x="25" y="433.3999999999997" xml:space="preserve" style="animation-delay: 0.64s;">`     =cccc++*sscs#sss***s=-+*+=c*ssc=:``:-=*+-`-+-+==:</text>
+    <text class="type-in" x="25" y="444.5999999999997" xml:space="preserve" style="animation-delay: 0.66s;">       `*c*=*cssc*ccc****c+-*=-+*c##%s*++*c*+--===:c*</text>
+    <text class="type-in" x="25" y="455.79999999999967" xml:space="preserve" style="animation-delay: 0.68s;">         =c+*csss++******c+=*+++*s###scccs*=::-===:+:</text>
   </g>
 
   <!-- Pionowa linia podziału -->
-  <line x1="365" y1="58" x2="365" y2="458" stroke="#21262d" stroke-width="1" />
+  <line x1="355" y1="58" x2="355" y2="458" stroke="#21262d" stroke-width="1" />
 
   <!-- Prawa sekcja: Dane -->
   <g id="specs">
-    <g transform="translate(390, 80)">
+    <g transform="translate(380, 80)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">USER:</text>
       <text x="95" y="0" fill="#58a6ff" font-size="12px">tomaszmarek // workstation</text>
     </g>
-    <g transform="translate(390, 108)">
+    <g transform="translate(380, 108)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">ROLE:</text>
       <text x="95" y="0" fill="#7ee787" font-size="12px">Software &amp; App Developer</text>
     </g>
-    <g transform="translate(390, 136)">
+    <g transform="translate(380, 136)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">STACK:</text>
       <text x="95" y="0" fill="#e6edf3" font-size="12px">Java, Android SDK, Python, C++</text>
     </g>
-    <g transform="translate(390, 164)">
-      <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">PIPELINE:</text>
-      <text x="95" y="0" fill="#ffa657" font-size="12px">Web Scraping, SQLite, JSON Parser</text>
-    </g>
-    <g transform="translate(390, 192)">
+    <g transform="translate(380, 164)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">FOCUS:</text>
       <text x="95" y="0" fill="#ffa657" font-size="12px">Practical Tools &amp; Edge-Case Hunting</text>
     </g>
-    <g transform="translate(390, 220)">
+    <g transform="translate(380, 192)">
+      <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">PIPELINE:</text>
+      <text x="95" y="0" fill="#ffa657" font-size="12px">Web Scraping, SQLite, JSON Parser</text>
+    </g>
+    <g transform="translate(380, 220)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">ACTIVE:</text>
       <text x="95" y="0" fill="#e3b341" font-size="12px">Milionerzy DB [10k Question Records]</text>
     </g>
-    <g transform="translate(390, 248)">
+    <g transform="translate(380, 248)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">STRATEGY:</text>
       <text x="95" y="0" fill="#d2a8ff" font-size="12px">Algorithmic Logic &amp; Chess Systems</text>
     </g>
   </g>
 
   <!-- Pozioma linia dzieląca dane od pasków -->
-  <line x1="390" y1="285" x2="825" y2="285" stroke="#21262d" stroke-width="1" />
+  <line x1="380" y1="285" x2="825" y2="285" stroke="#21262d" stroke-width="1" />
 
   <!-- Paski atrybutów -->
 
-    <g transform="translate(390, 310)">
+    <g transform="translate(380, 310)">
       <text x="0" y="12" fill="#58a6ff" font-size="11px" font-weight="bold">INT</text>
       <text x="35" y="12" fill="#8b949e" font-size="11px">Web Scraping &amp; Data Extraction</text>
-      <rect x="270" y="2" width="130" height="8" rx="4" fill="#21262d" />
-      <rect x="270" y="2" width="118" height="8" rx="4" fill="#58a6ff" />
+      <rect x="275" y="2" width="130" height="8" rx="4" fill="#21262d" />
+      <rect x="275" y="2" width="118" height="8" rx="4" fill="#58a6ff" />
 
       <text x="0" y="44" fill="#7ee787" font-size="11px" font-weight="bold">DEX</text>
       <text x="35" y="44" fill="#8b949e" font-size="11px">Application Crafting &amp; Architecture</text>
-      <rect x="270" y="34" width="130" height="8" rx="4" fill="#21262d" />
-      <rect x="270" y="34" width="110" height="8" rx="4" fill="#7ee787" />
+      <rect x="275" y="34" width="130" height="8" rx="4" fill="#21262d" />
+      <rect x="275" y="34" width="110" height="8" rx="4" fill="#7ee787" />
 
       <text x="0" y="76" fill="#ffa657" font-size="11px" font-weight="bold">PER</text>
       <text x="35" y="76" fill="#8b949e" font-size="11px">QA, Logic &amp; Edge-Case Debugging</text>
-      <rect x="270" y="66" width="130" height="8" rx="4" fill="#21262d" />
-      <rect x="270" y="66" width="124" height="8" rx="4" fill="#ffa657" />
+      <rect x="275" y="66" width="130" height="8" rx="4" fill="#21262d" />
+      <rect x="275" y="66" width="124" height="8" rx="4" fill="#ffa657" />
 
       <text x="0" y="108" fill="#d2a8ff" font-size="11px" font-weight="bold">WIS</text>
       <text x="35" y="108" fill="#8b949e" font-size="11px">Chess Strategy &amp; Trivia Logic</text>
-      <rect x="270" y="98" width="130" height="8" rx="4" fill="#21262d" />
-      <rect x="270" y="98" width="115" height="8" rx="4" fill="#d2a8ff" />
+      <rect x="275" y="98" width="130" height="8" rx="4" fill="#21262d" />
+      <rect x="275" y="98" width="115" height="8" rx="4" fill="#d2a8ff" />
     </g>
 
 </svg>
