@@ -2,7 +2,7 @@
   <style>
     .bg { fill: #0d1117; rx: 8px; stroke: #30363d; stroke-width: 1; }
     text {
-      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Menlo, Consolas, "Liberation Mono", monospace;
     }
     .ascii-text text {
       font-size: 8.8px;
@@ -20,7 +20,7 @@
 
   <rect width="100%" height="100%" class="bg" />
 
-  <!-- Górna belka okna -->
+  <!-- Przyciski okna -->
   <circle cx="25" cy="22" r="5.5" fill="#ff5f56" />
   <circle cx="43" cy="22" r="5.5" fill="#ffbd2e" />
   <circle cx="61" cy="22" r="5.5" fill="#27c93f" />
@@ -84,16 +84,16 @@
       <text x="95" y="0" fill="#e6edf3" font-size="12px">Java, Android SDK, Python, C++</text>
     </g>
     <g transform="translate(380, 164)">
+      <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">PIPELINE:</text>
+      <text x="95" y="0" fill="#ffa657" font-size="12px">Computer Vision, IoT &amp; Automation</text>
+    </g>
+    <g transform="translate(380, 192)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">FOCUS:</text>
       <text x="95" y="0" fill="#ffa657" font-size="12px">Practical Tools &amp; Edge-Case Hunting</text>
     </g>
-    <g transform="translate(380, 192)">
-      <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">PIPELINE:</text>
-      <text x="95" y="0" fill="#ffa657" font-size="12px">Web Scraping, SQLite, JSON Parser</text>
-    </g>
     <g transform="translate(380, 220)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">ACTIVE:</text>
-      <text x="95" y="0" fill="#e3b341" font-size="12px">Milionerzy DB [10k Question Records]</text>
+      <text x="95" y="0" fill="#f85149" font-size="12px">Classified / Stealth R&amp;D</text>
     </g>
     <g transform="translate(380, 248)">
       <text x="0" y="0" fill="#8b949e" font-weight="600" font-size="12px">STRATEGY:</text>
@@ -102,13 +102,13 @@
   </g>
 
   <!-- Pozioma linia dzieląca dane od pasków -->
-  <line x1="380" y1="285" x2="825" y2="285" stroke="#21262d" stroke-width="1" />
+  <line x1="380" y1="288" x2="825" y2="288" stroke="#21262d" stroke-width="1" />
 
   <!-- Paski atrybutów -->
 
-    <g transform="translate(380, 310)">
+    <g transform="translate(380, 312)">
       <text x="0" y="12" fill="#58a6ff" font-size="11px" font-weight="bold">INT</text>
-      <text x="35" y="12" fill="#8b949e" font-size="11px">Web Scraping &amp; Data Extraction</text>
+      <text x="35" y="12" fill="#8b949e" font-size="11px">Computer Vision &amp; Media Pipelines</text>
       <rect x="275" y="2" width="130" height="8" rx="4" fill="#21262d" />
       <rect x="275" y="2" width="118" height="8" rx="4" fill="#58a6ff" />
 
